@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:text="Lau Nha"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/2/2023"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/rname"
+        android:id="@+id/rstart"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/2/2023"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/rname"
+        android:layout_below="@id/rstart"
+        android:id="@+id/rdl"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/rfinish"
+        android:layout_toRightOf="@id/rstart"
+        android:enabled="false"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="remove"
+        android:id="@+id/remove"
+        />
+
+</RelativeLayout>
